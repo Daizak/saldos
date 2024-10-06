@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cajero</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+    
+    <div class="cajero">
+        <h1>Cajero automatico</h1>
+        <div id="saldo">saldo actual o inical de 20.000.00</div>
+
+        <input type="number" name="number" id="cantidad" placeholder="ingrece cantidad a retirar o depisitar">
+        
+        <button onclick="consulta()">consulta</button>
+        <button onclick="depositar()">depositar</button>
+        <button onclick="retirar()">retirar</button>
+
+        <h2>trasacciones</h2>
+        <ul id="trasacciones"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
